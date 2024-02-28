@@ -26,6 +26,8 @@ end
 #   look about 1% better
 def removeHTML(html_str)
   html_str.gsub!(/(<[^>]*>)|\n|\t|\$/s, "")
+
+  # TODO add line breaks
   
   # Also add multiline comment markers for Ruby!
   return "=begin\n" + html_str + "\n=end"
