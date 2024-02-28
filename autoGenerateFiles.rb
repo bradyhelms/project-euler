@@ -3,8 +3,8 @@ require 'uri'
 
 def main
   # Set start and end problems that you want to create
-  start_problem = 1
-  max_problem   = 5
+  start_problem = 6
+  max_problem   = 20
 
   (start_problem..max_problem).each do |i|
     puts "Creating file problem#{i}.rb"
